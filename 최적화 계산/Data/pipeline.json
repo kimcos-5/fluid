@@ -1,0 +1,89 @@
+[
+  { "type": "entrance", "note": "컴프레셔에서 배출" },
+
+  { "type": "swing_check_valve", "note": "컴프레셔 바로 앞"},
+  { "type": "pipe", "length": 0.5, "note": "입구에서 엘보 1 이전까지의 길이"},
+
+  { "type": "elbow_90", "note": "수직 방향으로 전환"},
+  { "type": "pipe", "length": 1.5, "note": "수직으로 1.5m 이동" },
+  { "type": "elbow_90", "note": "수평 방향으로 전환" },
+
+  { "type": "pipe", "length": 1.5, "note": "티자관 이전 기타 장비까지 이동" },
+  { "type": "aftercooler_separator", "note": "애프터 드레인 쿨러 및 수분 분리기" },
+  { "type": "air_tank", "note": "공기 탱크" },
+  { "type": "air_dryer", "note": "에어 드라이어" },
+  { "type": "pipe", "length": 1.5, "note": "에어 드라이어 이후 티자관까지" },
+  
+  { "type": "tee", "note": "티자관 1번 (전단 바이패스 분기점)" },
+  { "type": "gate_valve", "note": "전단 게이트 밸브 1" },
+  { "type": "pipe", "length": 3.0, "note": "전단 바이패스 밑의 부분" },
+  { "type": "gate_valve", "note": "전단 게이트 밸브 2" },
+  { "type": "tee", "note": "티자관 2번 (상단 바이패스 합류점)" },
+  
+  { "type": "pipe", "length": 3.5, "note": "티자에서 앵글밸브 전까지" },
+  { "type": "angle_valve", "note": "전단 메인 앵글밸브" },
+
+  { "type": "pipe", "length": 48.5, "note": "1구간 앵커 이전" },
+  { "type": "anchor", "note": "앵커 A" },
+  { "type": "pipe", "length": 48.5, "note": "1구간 앵커 이후" },
+  
+  { "type": "elbow_90", "note": "루프 1 진입 앨보" },
+  { "type": "pipe", "length": 3.0, "note": "루프 1 진입 배관" },
+  { "type": "elbow_90", "note": "루프 1 전환 앨보 전단" },
+  { "type": "pipe", "length": 2.0, "note": "루프 1 메인 배관 드레인이전" },
+  { "type": "pipe", "length": 2.0, "note": "루프 1 메인 배관 드레인이후" },
+  { "type": "elbow_90", "note": "루프 1 전환 앨보 후단" },
+  { "type": "pipe", "length": 3.0, "note": "루프 1 탈출 배관" },
+  { "type": "elbow_90", "note": "루프 1 탈출 앨보" },
+
+  { "type": "pipe", "length": 48.5, "note": "2구간 앵커 이전" },
+  { "type": "anchor", "note": "앵커 B" },
+  { "type": "pipe", "length": 48.5, "note": "2구간 앵커 이후" },
+
+  { "type": "elbow_90", "note": "루프 2 진입 앨보" },
+  { "type": "pipe", "length": 3.0, "note": "루프 2 진입 배관" },
+  { "type": "elbow_90", "note": "루프 2 전환 앨보 전단" },
+  { "type": "pipe", "length": 2.0, "note": "루프 2 메인 배관 드레인이전" },
+  { "type": "pipe", "length": 2.0, "note": "루프 2 메인 배관 드레인이후" },
+  { "type": "elbow_90", "note": "루프 2 전환 앨보 후단" },
+  { "type": "pipe", "length": 3.0, "note": "루프 2 탈출 배관" },
+  { "type": "elbow_90", "note": "루프 2 탈출 앨보" },
+
+  { "type": "pipe", "length": 48.5, "note": "3구간 앵커 이전" },
+  { "type": "anchor", "note": "앵커 C" },
+  { "type": "pipe", "length": 48.5, "note": "3구간 앵커 이후" },
+
+  { "type": "elbow_90", "note": "루프 3 진입 앨보" },
+  { "type": "pipe", "length": 3.0, "note": "루프 3 진입 배관" },
+  { "type": "elbow_90", "note": "루프 3 전환 앨보 전단" },
+  { "type": "pipe", "length": 2.0, "note": "루프 3 메인 배관 드레인이전" },
+  { "type": "pipe", "length": 2.0, "note": "루프 3 메인 배관 드레인이후" },
+  { "type": "elbow_90", "note": "루프 3 전환 앨보 후단" },
+  { "type": "pipe", "length": 3.0, "note": "루프 3 탈출 배관" },
+  { "type": "elbow_90", "note": "루프 3 탈출 앨보" },
+
+  { "type": "pipe", "length": 48.5, "note": "4구간 앵커 이전" },
+  { "type": "anchor", "note": "앵커 D" },
+  { "type": "pipe", "length": 48.5, "note": "4구간 앵커 이후" },
+  
+  { "type": "angle_valve", "note": "후단 진입 앵글밸브" },
+  { "type": "pipe", "length": 3.5, "note": "앵글밸브에서 티자 3번까지 구간" },
+  { "type": "tee", "note": "티자 3번 (후단 바이패스 분기점)" },
+  { "type": "gate_valve", "note": "후단 전단 게이트 밸브" },
+  { "type": "pipe", "length": 3.0, "note": "후단 메인 배관 길이" },
+  { "type": "gate_valve", "note": "후단 후단 게이트 밸브" },
+  { "type": "tee", "note": "티자 4번 (후단 바이패스 합류점)" },
+  
+  { "type": "pipe", "length": 2.0, "note": "티자에서 하강 엘보 전까지 구간" },
+  { "type": "swing_check_valve", "note": "후단 체크밸브" },
+  { "type": "elbow_90", "note": "후단 수직 하강 엘보" },
+  { "type": "pipe", "length": 1.5, "note": "후단 수직 하강 배관" },
+  { "type": "elbow_90", "note": "후단 수평 전환 엘보" },
+  
+  { "type": "lubricator", "note": "루브리케이터 (급유기)" },
+  { "type": "directional_control_valve", "note": "방향제어밸브 및 속도제어밸브" },
+  { "type": "pipe", "length": 1.5, "note": "출구 직전 최종 배관" },
+  
+  { "type": "air_cylinder", "note": "에어 실린더 (최종 장비 연결)" },
+  { "type": "exit", "note": "끝" }
+]

@@ -1,0 +1,50 @@
+{
+    "environment": {
+        "Temp" : 25,
+        "density" : 1.225,
+        "viscosity" : 1.81e-05,
+        "speed_of_sound" : 346.0
+    },
+
+    "system_requirements": {
+        "final_flow_rate" : 0.0546,
+        "pipe_flow_length" :441.0,
+        "pipe_length" : 453.9,
+        "final_pressure" : 1
+    },
+    "joint": {
+        "elbow_90": 16,
+        "tee": 4,
+        "gate_valve": 4,
+        "angle_valve": 2,
+        "swing_check_valve": 2
+    },
+    "exception": {
+        "elbow_90": 10,
+        "drain_valve": 8,
+        "gate_valve": 2,
+        "support": 106
+    },
+    "kl": {
+        "elbow_90": 0.75,
+        "tee": 0.5,
+        "gate_valve": 0.20,
+        "angle_valve": 3.75,
+        "swing_check_valve": 1.25,
+        "drain_valve": 0.075,
+        "entrance": 0.50,
+        "exit": 1.00
+    },
+    "constraints" : {
+        "max_mach_num" : 0.3
+    },
+
+    "electricity_tariff": {
+        "tariff_name" : "산업용(갑) 고압A 선택II",
+        "base_rate_per_kw": 8230,
+        "rate_spring_autumn": 89.05,
+        "rate_summer": 121.90,
+        "rate_winter": 116.89,
+        "surcharges_ratio": 1.137
+    }
+}
